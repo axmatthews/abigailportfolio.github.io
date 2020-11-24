@@ -315,12 +315,12 @@ a:hover {
 
 .circle.two {
 	margin-top: 200px;	
-	margin-left: 600px;
+	margin-left: 750px;
 }
 
 .circle.three {
 	margin-top: 280px;	
-	margin-left: 600px;	
+	margin-left: 550px;	
 }
 
 .drag-image:hover {
@@ -365,28 +365,3 @@ a:hover {
 .city {
 	font-size:20vh;
 }
-
-.container.one {
-	width: 100%;
-	display: inline;
-	margin-left: 8px;
-}
-
-.column {
-	display: inline;	
-	padding-left: 19.43%;
-	padding-bottom: 80px;
-	outline: 1px solid black;
-}
-
-.column.three {
-	padding-left: 5%;
-	color:red;			
-}
-.column.four {
-	padding-left: 5%;		
-}
-.column.five {
-	padding-left: 5%;		
-}
-
