@@ -365,7 +365,14 @@ a:hover {
 
 .city {
 	font-size:20vh;
-	padding: 100px;
+	padding: 20px;
 	margin-top: 300px;
-	margin-bottom: 300px;
+}
+
+.city-content {
+	display: inline-block;
+	width:33%;	
+	margin-left: 20px;	
+	font-size:10px;
+	margin-bottom: 300px;	
 }
