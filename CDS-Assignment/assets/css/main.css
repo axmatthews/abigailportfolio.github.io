@@ -140,12 +140,17 @@ a:hover {
 
 .title-1 {
   left:900px;
-  top:1000px;
+  top:1250px;
 }
 
 .title-2 {
   left:600px;
-  top:2270px;
+  top:2500px;
+}
+
+.title-3 {
+	left:100px;
+  top:2800px;
 }
 
 
@@ -160,19 +165,18 @@ a:hover {
 
 .toggle-1 {
   left:900px;
-  top:1040px;
+  top:1290px;
 }
 
 .toggle-2 {
   left:600px;
-  top:2310px;
+  top:2540px;
 }
 
-
-
-
-
-
+.toggle-3 {
+	left:100px;
+  top:2840px;
+}
 
 
 
@@ -240,6 +244,8 @@ a:hover {
 
 .message7{
 	padding:10px; 
+	width: 45%;
+	margin-left: auto;
 }
 
 .message8{
@@ -309,12 +315,12 @@ a:hover {
 
 .circle.two {
 	margin-top: 200px;	
-	margin-left: 550px;
+	margin-left: 600px;
 }
 
 .circle.three {
 	margin-top: 280px;	
-	margin-left: 550px;	
+	margin-left: 600px;	
 }
 
 .drag-image:hover {
@@ -346,9 +352,19 @@ a:hover {
 }
 
 
+.address {
+	display: inline-block;
+	width:100%;
+	font-size:8vh;
+	padding: 300px;
+	color: blue;
+	text-align: center;
+}
 
 
-
+.city {
+	font-size:20vh;
+}
 
 .container.one {
 	width: 100%;
