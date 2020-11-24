@@ -290,13 +290,13 @@ a:hover {
 }
 
 .circle.two {
-	margin-top: 200px;	
-	margin-left: 750px;
+	margin-top: -20px;	
+	margin-left: 700px;
 }
 
 .circle.three {
 	margin-top: 280px;	
-	margin-left: 550px;	
+	margin-left: 480px;	
 }
 
 .drag-image:hover {
