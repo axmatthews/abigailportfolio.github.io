@@ -153,6 +153,10 @@ a:hover {
   top:2800px;
 }
 
+.title-4 {
+	left:1010px;
+  top:4400px;
+}
 
 .toggle-content {
   display: none;
@@ -178,6 +182,10 @@ a:hover {
   top:2840px;
 }
 
+.toggle-4 {
+	left:1010px;
+  top:4440px;
+}
 
 
 .message3 {
@@ -346,9 +354,26 @@ a:hover {
 
 .subtitle {
 	display: inline-block;
-	width:33%;
-	height: 600px;	
-	margin-left: 50%;	
+	width:25%;	
+	margin-left: 70%;	
+	text-align: right;
+	padding:20px;
 	font-size:10px;
 	background-color: red;
 }
+
+.footer {
+	font-size: 10px;
+	width:100%;
+	padding-left:20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	position: fixed;
+	bottom: 0px;
+	background-color: white;
+
+}
+
+
+
+

@@ -87,6 +87,9 @@ $( ".title-3" ).click(function() {
   $( ".toggle-3" ).slideToggle( "slow" );
 });
 
+$( ".title-4" ).click(function() {
+  $( ".toggle-4" ).slideToggle( "slow" );
+});
 
 
 
