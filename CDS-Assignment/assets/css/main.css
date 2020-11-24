@@ -176,6 +176,7 @@ a:hover {
 .toggle-3 {
 	left:100px;
   top:2840px;
+  width: 45%;
 }
 
 
@@ -364,4 +365,7 @@ a:hover {
 
 .city {
 	font-size:20vh;
+	padding: 100px;
+	margin-top: 300px;
+	margin-bottom: 300px;
 }
