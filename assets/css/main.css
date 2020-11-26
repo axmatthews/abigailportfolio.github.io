@@ -21,6 +21,7 @@ body{
 	color:black;
 }
 
+
 .title {
 	font-family: arial black, gadget, sans-serif; 
 	font-size:150px;
@@ -56,28 +57,10 @@ body{
 
 /*homepage styles*/
 
-/*contents styles*/
 
-.content-1 {
-	display: inline-block;
-	width:54%;
-	color:blue;
-	background-color: white;	
-	padding: 15px;
-	padding-left: 12%;
-	padding-bottom: 20px;
-}
 
-.content-2 {
-	display: inline-block;
-	width:45%;
-	color:blue;
-	background-color: white;	
-	padding: 15px;
-	padding-bottom: 20px;	
-}
 
-/*contents styles*/
+
 
 /*swatches styles*/
 
@@ -145,13 +128,17 @@ body{
 /*button styles*/
 
 .btn {
-	padding:2px;
+	padding:3px;
 	color:black;
 }
 
 .btn-cerulean {
-	font-size: 30px;
+	font-family: Arial Black, Gadget,sans-serif;	
+	font-size:18px;	
+	padding-bottom: 3px;
 }
+
+
 
 
 .btn:hover{

@@ -91,17 +91,6 @@ $( document ).ready(function() {
 	});	
 
 
-	$('.btn-swatches').click(function(){
-		$('.item').addClass('hide');
-		$('.book').addClass('hide');
-		$('.title').addClass('hide');
-		$('.introduction').addClass('hide');		
-		$('.btn-cerulean').removeClass('hide');							
-		$('.swatches').removeClass('hide');
-		$('.nav').removeClass('colorblue');			
-	});
-
-
 	$('.btn-contents').click(function(){
 		$('.item').addClass('hide');
 		$('.swatches').addClass('hide');
@@ -109,7 +98,8 @@ $( document ).ready(function() {
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');					
 		$('.book').removeClass('hide');	
-		$('.nav').addClass('colorblue');	
+		$('.contents').removeClass('hide');			
+
 	});
 
 
