@@ -1,34 +1,133 @@
-$(document).ready(function(){
+$( document ).ready(function() {
+    
+ $( function() {
+    $( ".drag-image").draggable();
 
-var word1 = [
-	"CHECK ON",
-	"CALL",
-	"MESSAGE"
-];
+  } );
 
-var randomWord1 = word1[Math.floor(Math.random()*word1.length)];
+ $( function() {
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.book').addClass('hide');
+		$('.btn-cerulean').addClass('hide');												
+		$('.title').removeClass('hide');
+  } );  
 
-var word2 = [
-  "FRIENDS",
-  "PARENTS",
-  "SIBLINGS",
-  "ELDERS",
-  "FAMILY"
-];
 
-var randomWord2 = word2[Math.floor(Math.random()*word2.length)];
+	$('.btn-cerulean').click(function(){
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.book').addClass('hide');
+		$('.btn-cerulean').addClass('hide');
+		$('.introduction').removeClass('hide');													
+		$('.title').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
+	}); 
 
-var word3 = [
-  "STUCK INSIDE",
-  "IN ISOLATION",
-  "QUARATINED",
-  "IN LOCKDOWN"
-];
 
-var randomWord3 = word3[Math.floor(Math.random()*word3.length)];
+	$('.btn-egyptian').click(function(){
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.book').addClass('hide');	
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');													
+		$('.item.egyptian').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
+	});
 
-$( ".word1" ).html(randomWord1);
-$( ".word2" ).html(randomWord2);
-$( ".word3" ).html(randomWord3);
+	$('.btn-klein').click(function(){
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.book').addClass('hide');
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');									
+		$('.item.klein').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
+	});
+
+	$('.btn-navy').click(function(){
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.book').addClass('hide');
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');									
+		$('.item.navy').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
+	});	
+
+	$('.btn-prussian').click(function(){
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.book').addClass('hide');
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');									
+		$('.item.prussian').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
+	});	
+
+	$('.btn-ultra').click(function(){
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.book').addClass('hide');
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');									
+		$('.item.ultra').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
+	});	
+
+	$('.btn-reset').click(function(){
+		$('.swatches').addClass('hide');
+		$('.book').addClass('hide');
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');									
+		$('.item').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
+	});	
+
+
+	$('.btn-swatches').click(function(){
+		$('.item').addClass('hide');
+		$('.book').addClass('hide');
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');							
+		$('.swatches').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
+	});
+
+
+	$('.btn-contents').click(function(){
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');					
+		$('.book').removeClass('hide');	
+		$('.nav').addClass('colorblue');	
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });
