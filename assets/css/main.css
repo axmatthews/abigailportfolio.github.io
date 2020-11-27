@@ -15,6 +15,9 @@ body{
 .nav {
 	padding: 20px;
 	position: fixed;
+	font-family: halyard-display,sans-serif;
+	font-weight: 500;
+	font-style: normal;	
 }
 
 .nav.colorblue .btn {
@@ -66,56 +69,14 @@ body{
 
 .swatches {
 	display: inline-block;
-	width:16.33%;
+	width:33%
 	padding-top:80px;
-	margin-top: 4.6%;
-	margin-left: 14%;
-	margin-bottom: 6%;
+	margin-top: 20%;
+	margin-left: 25%;
 }
 
 .swatches.one {
-	background-color: #148aa5;
-	color: white;
-}
-
-.swatches.two {
-	background-color: #004a7c;
-	color: white;
-}
-
-.swatches.three {
-	background-color: #001f82;
-	color: white;
-}
-
-.swatches.four {
-	background-color: #79ffe7;
-	color: white;
-}
-
-.swatches.five {
-	background-color: #95d8ff;
-	color: white;
-}
-
-.swatches.six {
-	background-color: #8abbff;
-	color: white;
-}
-
-.swatches.seven {
-	background-color: #29abe2;
-	color: white;
-}
-
-.swatches.eight {
-	background-color: #577bff;
-	color: white;
-}
-
-.swatches.nine {
-	background-color: #4d6fb5;
-	color: white;
+	
 }
 
 .hide {
@@ -179,6 +140,13 @@ body{
 	width:20%;
 	align-content: center;
 }
+
+.video {
+	width: 94.5%;
+	height: auto;
+	padding-left: 25.5%;
+}
+
 
 
 /*footer styles*/

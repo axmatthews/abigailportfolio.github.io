@@ -102,6 +102,16 @@ $( document ).ready(function() {
 
 	});
 
+	$('.btn-swatches').click(function(){
+		$('.item').addClass('hide');
+		$('.swatches').addClass('hide');
+		$('.title').addClass('hide');
+		$('.introduction').addClass('hide');		
+		$('.btn-cerulean').removeClass('hide');					
+		$('.book').removeClass('hide');	
+		$('.swatches').removeClass('hide');			
+
+	});
 
 
 
