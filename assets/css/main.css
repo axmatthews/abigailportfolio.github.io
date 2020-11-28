@@ -4,6 +4,18 @@ body{
 	color:black;
 }
 
+a:link {
+	color:black;
+}
+
+a:visited {
+	color:black;
+}
+
+a:hover {
+	color: black;
+}
+
 .background-image {
 	width: 100%;
 	position: absolute;
@@ -30,7 +42,7 @@ body{
 	font-size:150px;
 	width: 49%;
 	transform:skew(40deg);
-	margin-left:25%;
+	margin-left:30%;
 	margin-top: 17%; 
 	position:absolute;
 	animation: rotationchange 5s infinite alternate;
@@ -68,15 +80,10 @@ body{
 /*swatches styles*/
 
 .swatches {
-	display: inline-block;
-	width:33%
-	padding-top:80px;
-	margin-top: 20%;
-	margin-left: 25%;
+
 }
 
 .swatches.one {
-	
 }
 
 .hide {
@@ -120,9 +127,9 @@ body{
 	width:100%;
 	height: auto;
 	padding-left: 20%;
-	font-size: 9px; 
+	font-size: 12px; 
 	color:grey;
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -170,6 +177,12 @@ body{
 .reference {
 	width:;
 }
+
+.contact {
+	margin-left: 87%;
+	font-weight: bold;
+}
+
 
 /*footer styles*/
 
