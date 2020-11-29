@@ -51,14 +51,18 @@ a:hover {
 
 @keyframes rotationchange {
 	0% {
-		
-		transform:skew(15deg);
+		transform:skew(0deg);
 		color: blue;
 	}
 
+	15% {
+		transform:skew(0deg);
+		color: blue;
+	}	
+
 	50% {
 		color:white;
-		transform:skew(20deg);
+		transform:skew(15deg);
 	}
 
 	100% {
